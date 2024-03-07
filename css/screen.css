@@ -1,0 +1,151 @@
+html {
+background-color: rgb(176, 108, 108);
+height: 100%;
+}
+
+body {
+margin-left:10%;
+margin-right:10%;
+min-height: 100%;
+padding:24px;
+}
+
+aside {
+   width:50%;
+   padding-left:0.5rem;
+   padding-right:0.5rem;
+   float:right;
+
+}
+
+nav{
+   background-color: rgb(176, 108, 108);
+   border-bottom: solid 10px rgb(66, 25, 25);
+   border-top: solid 10px rgb(66, 25, 25);
+}
+
+header {
+height: 155px;
+margin-bottom: 5px;
+
+}
+
+p {
+font-family: "Georgia","arial","Serif";
+font-size: 100%;
+background-color: rgb(232, 192, 192);
+}
+
+em, cite {
+font-style: italic;
+}
+
+strong {
+font-weight: bold;
+}
+
+code {
+font-family: "consolas","monospace";
+font-size: 90%;
+color: rgb(77, 23, 23);
+}
+
+a {
+color: rgb(164, 17, 17);
+font-weight: bold;
+text-decoration: none;
+}
+
+h1 {
+margin-bottom: 15px;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 5px;
+margin-left: -10px;
+border-bottom: solid 10px rgb(66, 25, 25);
+border-top: solid 10px rgb(66, 25, 25);
+font-family: "Georgia","Arial","sans-serif";
+font-size: 250%;
+background-color: rgb(232, 192, 192);
+text-align: center;
+}
+
+h2 {
+margin-top: 50px;
+margin-bottom: 10px;
+font-family: "Georgia","Arial","sans-serif";
+font-size: 150%;
+color: rgb(232, 192, 192);
+background-color: rgb(66, 25, 25);
+text-align: center;;
+}
+
+h3 {
+margin-top: 15px;
+padding-top: 5px;
+padding-bottom: 5px;
+text-align: center;
+color: black;
+font-family: "Georgia","Arial","sans-serif";
+font-weight: bold;
+border-bottom: solid rgb(66, 25, 25);
+}
+
+#Topic > header > ul > div{
+   font-size:small;
+   border: 15px;
+}
+
+ul > li {
+list-style-type: disc;
+margin-left: 45px;
+margin-left:10%;
+margin-right:10%;
+background-color: rgb(232, 192, 192);
+}
+
+ol{
+background-color:rgb(232, 192, 192);
+}
+
+ul{
+   background-color:rgb(232, 192, 192);
+
+}
+
+ol > li {
+   list-style-type:decimal;
+   margin-left: 45px;
+   margin-left:10%;
+   margin-right:10%;
+   background-color: rgb(232, 192, 192);
+}
+
+ul > ul  {
+   list-style-type:circle;
+   margin-left:20px;
+   background-color: rgb(232, 192, 192);
+}
+
+ul > li > ul > li {
+list-style: circle;
+} 
+
+ul > li > ol > li  {
+list-style: decimal;
+}
+
+img {
+display: block;
+margin-top: 10px;
+margin-bottom: 10px;
+scale:75%
+}
+
+figcaption{
+   padding-bottom: 10px;
+   text-align: center;
+   margin-right: 10%;
+   margin-left: 10%;
+   margin-top:-50px;
+}
