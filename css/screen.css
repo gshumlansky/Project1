@@ -1,3 +1,4 @@
+/*Below is general document styles*/
 html {
 background-color: rgb(255 226 226);
 height: 100%;
@@ -32,6 +33,7 @@ margin-bottom: 5px;
 
 }
 
+/*Text specfic styles*/
 p {
 font-family: "Georgia","arial","Serif";
 font-size: 100%;
@@ -63,6 +65,7 @@ font-weight: bold;
 text-decoration: none;
 }
 
+/*Section headings styles*/
 h1 {
 padding-top: 15px;
 padding-bottom: 15px;
@@ -99,6 +102,7 @@ h3 {
    font-weight: bold;
 }
 
+/*List styles*/
 #Topic > header > ul > div{
    font-size:small;
    border: 15px;
@@ -139,6 +143,7 @@ ul > li > ol > li  {
 list-style: decimal;
 }
 
+/*Image styles*/
 img {
    margin-left: -15%;
    display: block;
