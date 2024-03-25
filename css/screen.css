@@ -1,31 +1,33 @@
 html {
-background-color: rgb(176, 108, 108);
+background-color: rgb(255 226 226);
 height: 100%;
 }
 
 body {
-margin-left:10%;
-margin-right:10%;
+margin-left:20%;
+margin-right:20%;
 min-height: 100%;
 padding:24px;
 }
 
 aside {
-   width:50%;
-   padding-left:0.5rem;
-   padding-right:0.5rem;
-   float:right;
-
+   font-weight: bold;
+   margin-left: -274px;
+   position: absolute;
+   width: 20%;
+   padding-left: 0.5rem;
+   padding-right: 0.5rem;
+   float: right;
 }
 
 nav{
-   background-color: rgb(176, 108, 108);
+   margin-bottom: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
    border-bottom: solid 10px rgb(66, 25, 25);
-   border-top: solid 10px rgb(66, 25, 25);
 }
 
 header {
-height: 155px;
 margin-bottom: 5px;
 
 }
@@ -33,7 +35,12 @@ margin-bottom: 5px;
 p {
 font-family: "Georgia","arial","Serif";
 font-size: 100%;
-background-color: rgb(232, 192, 192);
+}
+
+#Home > header > p{
+   font-family: "Georgia","arial","Serif";
+   font-size: 100%;
+   margin-top:20px;
 }
 
 em, cite {
@@ -51,13 +58,12 @@ color: rgb(77, 23, 23);
 }
 
 a {
-color: rgb(164, 17, 17);
+color: rgb(114, 26, 26);
 font-weight: bold;
 text-decoration: none;
 }
 
 h1 {
-margin-bottom: 15px;
 padding-top: 15px;
 padding-bottom: 15px;
 padding-left: 5px;
@@ -66,29 +72,31 @@ border-bottom: solid 10px rgb(66, 25, 25);
 border-top: solid 10px rgb(66, 25, 25);
 font-family: "Georgia","Arial","sans-serif";
 font-size: 250%;
-background-color: rgb(232, 192, 192);
 text-align: center;
 }
 
 h2 {
-margin-top: 50px;
-margin-bottom: 10px;
-font-family: "Georgia","Arial","sans-serif";
-font-size: 150%;
-color: rgb(232, 192, 192);
-background-color: rgb(66, 25, 25);
-text-align: center;;
+   padding-bottom: 5px;
+   font-weight: bold;
+   margin-top: 70px;
+   margin-bottom: 25px;
+   font-family: "Georgia","Arial","sans-serif";
+   font-size: 150%;
+   text-align: center;
+   color: rgb(66, 25, 25);
+   border-bottom: solid rgb(66, 25, 25);
+   border-bottom-width: 10px;
 }
 
 h3 {
-margin-top: 15px;
-padding-top: 5px;
-padding-bottom: 5px;
-text-align: center;
-color: black;
-font-family: "Georgia","Arial","sans-serif";
-font-weight: bold;
-border-bottom: solid rgb(66, 25, 25);
+   margin-bottom: 5px;
+   margin-top: 15px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   text-align: center;
+   color: black;
+   font-family: "Georgia","Arial","sans-serif";
+   font-weight: bold;
 }
 
 #Topic > header > ul > div{
@@ -101,16 +109,14 @@ list-style-type: disc;
 margin-left: 45px;
 margin-left:10%;
 margin-right:10%;
-background-color: rgb(232, 192, 192);
 }
 
 ol{
-background-color:rgb(232, 192, 192);
+   padding: 10px;
 }
 
 ul{
-   background-color:rgb(232, 192, 192);
-
+   padding: 10px;
 }
 
 ol > li {
@@ -118,13 +124,11 @@ ol > li {
    margin-left: 45px;
    margin-left:10%;
    margin-right:10%;
-   background-color: rgb(232, 192, 192);
 }
 
 ul > ul  {
    list-style-type:circle;
    margin-left:20px;
-   background-color: rgb(232, 192, 192);
 }
 
 ul > li > ul > li {
@@ -136,16 +140,18 @@ list-style: decimal;
 }
 
 img {
-display: block;
-margin-top: 10px;
-margin-bottom: 10px;
-scale:75%
+   margin-left: -15%;
+   display: block;
+   margin-top: -40px;
+   margin-bottom: -40px;
+   scale: 75%;
 }
 
 figcaption{
-   padding-bottom: 10px;
+   font-style: italic;
+   padding-bottom: 0px;
    text-align: center;
    margin-right: 10%;
    margin-left: 10%;
-   margin-top:-50px;
+   margin-top: -22px;
 }
